@@ -45,13 +45,6 @@ public abstract class Conta implements IConta {
 	public double getSaldo() {
 		return saldo;
 	}
-	
-	public int getCount() {
-		return count;
-	}
-	public void setCount(int count) {
-		this.count = count;
-	}
 
 	protected void imprimirMovimentacao() {
 		System.out.println(String.format("Titular: %s", this.novoCliente.getNome()));
